@@ -1,14 +1,22 @@
-# Análise Comparativa: Dólar em Anos Eleitorais (2014-2026)
+# 📊 Monitor Estratégico USD/BRL
 
-Este projeto analisa o comportamento do par **USD/BRL** em anos de eleições presidenciais, focando na janela de oportunidade identificada em abril de 2026.
+Dashboard interativo desenvolvido em Python para análise de performance histórica do par de moedas Dólar/Real (USD/BRL) com dados em tempo real.
 
-## 📊 Resultado da Análise
-![Gráfico Comparativo](grafico_dolar.png)
+## 🚀 Funcionalidades
+- **Navegação Histórica:** Análise de dados desde 2010 via integração com Yahoo Finance.
+- **Gráfico de Contexto:** Visualização do histórico total com destaque em azul escuro para o período selecionado.
+- **Métricas Dinâmicas:** Cálculo automático de Preço Inicial, Final e Variação Percentual baseado nas datas escolhidas.
+- **Alertas de Volatilidade:** Tabela anual com sinalização visual (Verde para altas >10% e Vermelho para quedas >10%).
+- **Atualização On-demand:** Botão integrado para limpar cache e buscar cotações do dia.
 
-## 🧐 Conclusões
-O gráfico mostra se o patamar atual de 2026 está seguindo a tendência de valorização histórica do segundo semestre ou se estamos em um ponto de desvio (dólar barato).
+## 🛠️ Tecnologias Utilizadas
+- **Python 3.10+**
+- **Streamlit**: Interface do Dashboard.
+- **Plotly**: Gráficos interativos.
+- **Pandas**: Manipulação e análise de dados.
+- **YFinance**: Extração de dados financeiros.
 
-## 🛠️ Como executar
-1. Ative o ambiente virtual: `.\venv\Scripts\activate`
-2. Instale as dependências: `pip install yfinance pandas matplotlib`
-3. Rode o script: `python main.py`
+## 💻 Como Rodar o Projeto
+1. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
